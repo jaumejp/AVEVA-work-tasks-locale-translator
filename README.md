@@ -13,6 +13,10 @@ pip install chardet
 
 ## Configuración
 
+Clona el proyecto y añade la carpeta en-US con toda la información (substituyendo la del repositorio). 
+
+Una vez ejecutado el script copia la carpeta con las nuevas traduciones en la carpeta /AVEVA/Work Tasks/Locales tal como indica la documentación de AVEVA.
+
 Debes proporcionar un archivo de configuración llamado `config.py` en el mismo directorio que el script. Este archivo debe definir las siguientes variables:
 
 - `translate_from`: El idioma de origen para la traducción (por ejemplo, `'english'` para inglés).
@@ -70,11 +74,3 @@ name:John
 age:30
 city:Nueva York
 ```
-
-## Contribuciones
-
-Si deseas contribuir a este proyecto, por favor, envía un pull request o abre un problema con tus sugerencias.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
